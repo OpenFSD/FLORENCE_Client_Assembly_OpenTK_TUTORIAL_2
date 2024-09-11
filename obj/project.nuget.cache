@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4PNOPLirwis=",
+  "dgSpecHash": "IErTBPl3UMc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\FLORENCE_CLient_Assembly_Template.csproj",
+  "projectFilePath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_Client_Assembly_TEMPLATE\\FLORENCE_CLient_Assembly_Template.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Legel.DESKTOP-RKOK0RG\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\Legel.DESKTOP-RKOK0RG\\.nuget\\packages\\opentk\\2.0.0\\opentk.2.0.0.nupkg.sha512",

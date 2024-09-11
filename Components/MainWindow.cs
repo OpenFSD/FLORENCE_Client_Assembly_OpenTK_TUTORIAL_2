@@ -58,22 +58,22 @@ namespace techdump.opengl.Components
             VSync = VSyncMode.Off;
             CreateProjection();
             _solidProgram = new ShaderProgram();
-            _solidProgram.AddShader(ShaderType.VertexShader, @"Components\Shaders\1Vert\simplePipeVert.c");
-            _solidProgram.AddShader(ShaderType.FragmentShader, @"Components\Shaders\5Frag\simplePipeFrag.c");
+            _solidProgram.AddShader(ShaderType.VertexShader, "..\\..\\..\\Components\\Shaders\\1Vert\\vs_simplePipe.glsl");
+            _solidProgram.AddShader(ShaderType.FragmentShader, "..\\..\\..\\Components\\Shaders\\5Frag\\fs_simplePipe.glsl");
             _solidProgram.Link();
 
             _texturedProgram = new ShaderProgram();
-            _texturedProgram.AddShader(ShaderType.VertexShader, @"Components\Shaders\1Vert\simplePipeTexVert.c");
-            _texturedProgram.AddShader(ShaderType.FragmentShader, @"Components\Shaders\5Frag\simplePipeTexFrag.c");
+            _texturedProgram.AddShader(ShaderType.VertexShader, "..\\..\\..\\Components\\Shaders\\1Vert\\vs_simplePipe_tex.glsl");
+            _texturedProgram.AddShader(ShaderType.FragmentShader, "..\\..\\..\\Components\\Shaders\\5Frag\\fs_simplePipe_tex.glsl");
             _texturedProgram.Link();
             
             var models = new Dictionary<string, ARenderable>();
-            models.Add("Wooden", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, @"Components\Textures\wooden.png", 8));
-            models.Add("Golden", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, @"Components\Textures\golden.bmp", 8));
-            models.Add("Asteroid", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, @"Components\Textures\moonmap1k.jpg", 8));
-            models.Add("Spacecraft", new MipMapGeneratedRenderObject(RenderObjectFactory.CreateTexturedCube6(1, 1, 1), _texturedProgram.Id, @"Components\Textures\spacecraft.png", 8));
-            models.Add("Gameover", new MipMapGeneratedRenderObject(RenderObjectFactory.CreateTexturedCube6(1, 1, 1), _texturedProgram.Id, @"Components\Textures\gameover.png", 8));
-            models.Add("Bullet", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, @"Components\Textures\dotted.png", 8));
+            models.Add("Wooden", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\wooden.png", 8));
+            models.Add("Golden", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\golden.bmp", 8));
+            models.Add("Asteroid", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\moonmap1k.jpg", 8));
+            models.Add("Spacecraft", new MipMapGeneratedRenderObject(RenderObjectFactory.CreateTexturedCube6(1, 1, 1), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\spacecraft.png", 8));
+            models.Add("Gameover", new MipMapGeneratedRenderObject(RenderObjectFactory.CreateTexturedCube6(1, 1, 1), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\gameover.png", 8));
+            models.Add("Bullet", new MipMapGeneratedRenderObject(new IcoSphereFactory().Create(3), _texturedProgram.Id, "..\\..\\..\\Components\\Textures\\dotted.png", 8));
 
             //models.Add("TestObject", new TexturedRenderObject(RenderObjectFactory.CreateTexturedCube(1, 1, 1), _texturedProgram.Id, @"Components\Textures\asteroid texture one side.jpg"));
             //models.Add("TestObjectGen", new MipMapGeneratedRenderObject(RenderObjectFactory.CreateTexturedCube(1, 1, 1), _texturedProgram.Id, @"Components\Textures\asteroid texture one side.jpg", 8));

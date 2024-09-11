@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\FLORENCE_CLient_Assembly_Template.csproj": {}
+    "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_Client_Assembly_TEMPLATE\\FLORENCE_CLient_Assembly_Template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\FLORENCE_CLient_Assembly_Template.csproj": {
+    "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_Client_Assembly_TEMPLATE\\FLORENCE_CLient_Assembly_Template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\FLORENCE_CLient_Assembly_Template.csproj",
+        "projectUniqueName": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_Client_Assembly_TEMPLATE\\FLORENCE_CLient_Assembly_Template.csproj",
         "projectName": "FLORENCE_CLient_Assembly_Template",
-        "projectPath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\FLORENCE_CLient_Assembly_Template.csproj",
+        "projectPath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_Client_Assembly_TEMPLATE\\FLORENCE_CLient_Assembly_Template.csproj",
         "packagesPath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Legel.DESKTOP-RKOK0RG\\source\\repos\\FLORENCE_CLient_Assembly_Template\\obj\\",
         "projectStyle": "PackageReference",
