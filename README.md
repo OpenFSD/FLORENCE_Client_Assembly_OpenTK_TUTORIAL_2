@@ -1,5 +1,7 @@
-# FLORENCE
-## Client and Networking, For Full Stack Development
+# FLORENCE - Full Stack Development
+## Client, For Full Stack Development
+
+
 ### C#
 
 ### Using Windows 10
@@ -9,7 +11,14 @@ Version: 22H2
 
 ### Using Microsoft Visual Studio Enterprise 2022 (64-bit) 
 
-Version 17.11.1
+Version 17.10.5
 
-## Development History
+## Dependencies
 
+### OpenTK
+
+Version: 2.0.0
+
+### .Net
+
+Version: 4.8.09037
