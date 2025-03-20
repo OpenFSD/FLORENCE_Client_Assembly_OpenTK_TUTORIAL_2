@@ -1,9 +1,9 @@
-# Florence - FSD (Full Stack Development)
-## Client, For Full Stack Development
-### OpenTK Tutorial
+# OpenTK Tutorial
 https://dreamstatecoding.blogspot.com/2017/02/opengl-4-with-opentk-in-c-part-13.html
 
-### Using C#
+## Using C#
+### Florence - FSD (Full Stack Development)
+### Client, For Full Stack Development
 
 ### Using Windows 11 Home
 Edition: Windows 11 Home OEM System Builder
