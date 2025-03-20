@@ -1,17 +1,18 @@
-# FLORENCE - Full Stack Development
+# Florence - FSD (Full Stack Development)
 ## Client, For Full Stack Development
+### OpenTK Tutorial
 https://dreamstatecoding.blogspot.com/2017/02/opengl-4-with-opentk-in-c-part-13.html
 
-### C#
+### Using C#
 
-### Using Windows 10
-Edition: Windows 10 Pro - System Builders OEM
+### Using Windows 11 Home
+Edition: Windows 11 Home OEM System Builder
 
-Version: 22H2
+Version: 24H2
 
-### Using Microsoft Visual Studio Enterprise 2022 (64-bit) 
+### Using Microsoft Visual Studio Professional 2019
 
-Version 17.10.5
+Version 16.11.45
 
 ## Dependencies
 
@@ -22,3 +23,4 @@ Version: 2.0.0
 ### .Net
 
 Version: 4.8.09037
+-
